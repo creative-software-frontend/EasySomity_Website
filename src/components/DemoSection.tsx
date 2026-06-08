@@ -15,6 +15,7 @@ const DemoSection = () => {
 
     const credentials: CredentialCard[] = [
         { role: 'System Admin', email: 'admin@gmail.com', color: '#4f46e5' },
+        { role: 'Manager', email: 'manager@gmail.com', color: '#4f46e5' },
     ];
 
     const handleCopy = (email: string) => {
@@ -42,7 +43,7 @@ const DemoSection = () => {
                     </p>
 
                     <a
-                        href="https://courier.demo-bd.com/"
+                        href="https://loan.demo-bd.com/login"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.mainDemoButton}
@@ -78,7 +79,7 @@ const DemoSection = () => {
                     >
                         <span>Click the link:</span>
                         <span style={{ textDecoration: 'underline', opacity: 0.95, color: '#e2e8f0' }}>
-                            https://courier.demo-bd.com
+                            https://loan.demo-bd.com/login
                         </span>
                         <svg
                             width="18"

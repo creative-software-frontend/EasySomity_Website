@@ -1,7 +1,5 @@
-Somity Software  Live Demo: https://courier.demo-bd.com/
+Somity Software Live Demo: https://loan.demo-bd.com/login
 admin@gmail.com
-hub@gmail.com
-rider@gmail.com
-merchant@gmail.com
+manager@gmail.com
 
 All Password Same: 123456 
