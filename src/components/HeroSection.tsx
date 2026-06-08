@@ -23,7 +23,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className={styles.title}
         >
-          Smart Courier Software
+          Smart Somity Software
         </motion.h1>
 
         <motion.p
@@ -32,7 +32,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className={styles.subtitle}
         >
-          Booking থেকে Delivery পর্যন্ত সম্পূর্ণ অটোমেটেড কুরিয়ার ম্যানেজমেন্ট সিস্টেম
+          সম্পূর্ণ অটোমেটেড সমিতি ম্যানেজমেন্ট সিস্টেম
         </motion.p>
 
         <div className={styles.badgeContainer}>
@@ -58,7 +58,7 @@ const HeroSection = () => {
         >
           {/* Updated the src below to your specific video ID */}
           <iframe
-            src="https://www.youtube.com/embed/Dscoh8wYUSQ?si=lAJ8qmHqvQISSL5G"
+            src="https://www.youtube.com/embed/McGc6Em7cgM?si=W3mRxWgYlPe4TB9g"
             title="Easy Somity Demo Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
