@@ -8,10 +8,9 @@ import styles from './HeroSection.module.css';
 
 const HeroSection = () => {
   const badges = [
-    'Real-Time Tracking',
-    'Auto Dispatch',
-    'Multi Branch',
-    'COD System',
+    'Loan',
+    'DPS',
+    'FDR',
   ];
 
   return (
