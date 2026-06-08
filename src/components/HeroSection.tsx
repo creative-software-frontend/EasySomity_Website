@@ -59,7 +59,7 @@ const HeroSection = () => {
           {/* Updated the src below to your specific video ID */}
           <iframe
             src="https://www.youtube.com/embed/Dscoh8wYUSQ?si=lAJ8qmHqvQISSL5G"
-            title="Courierly Demo Video"
+            title="Easy Somity Demo Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>

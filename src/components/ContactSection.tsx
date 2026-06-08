@@ -56,7 +56,7 @@ const ContactSection = () => {
             {[
               { icon: <HiPhone />, title: 'Hotline', content: '09649-866 977' },
               { icon: <FaWhatsapp />, title: 'WhatsApp', content: <a href="https://wa.me/8801978866977" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', textDecoration: 'none'}}>01978-866 977</a> },
-              { icon: <HiMail />, title: 'Email', content: 'info@courierly.com' },
+              { icon: <HiMail />, title: 'Email', content: 'info@EasySomity.com' },
               { icon: <HiLocationMarker />, title: 'Address', content: 'Dhaka, Bangladesh' }
             ].map((info, idx) => (
               <motion.div

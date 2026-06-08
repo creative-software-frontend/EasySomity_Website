@@ -33,7 +33,7 @@ const TermsSection = () => {
         >
           <h2 className="section-title">Terms & Conditions</h2>
           <p className="section-subtitle">
-            Courierly সফটওয়্যার ডেভেলপমেন্ট, ব্যবহার ও সাপোর্ট সংক্রান্ত আমাদের শর্তাবলী
+            Easy Somity সফটওয়্যার ডেভেলপমেন্ট, ব্যবহার ও সাপোর্ট সংক্রান্ত আমাদের শর্তাবলী
           </p>
         </motion.div>
 

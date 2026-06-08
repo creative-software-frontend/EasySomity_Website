@@ -29,7 +29,7 @@ const Footer = () => {
             }}
             whileHover={{ scale: 1.05 }}
           >
-            Courierly
+            Easy Somity
           </motion.h3>
 
           <p style={{ 
@@ -54,7 +54,7 @@ const Footer = () => {
             whileInView={{ opacity: 0.5 }}
             transition={{ delay: 0.3 }}
           >
-            © 2026 Courierly. All rights reserved.
+            © 2026 Easy Somity. All rights reserved.
           </motion.p>
         </motion.div>
       </div>

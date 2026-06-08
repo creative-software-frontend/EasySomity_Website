@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: "Courierly | Smart Courier Management Software",
+  title: "Easy Somity | Smart Loan Management Software",
   description: "Advanced automated courier management system in Bangladesh. Features include real-time tracking, auto dispatch, multi-branch management, and COD system.",
-  keywords: ["Courier Software", "Logistics Management", "Courier Tracking System", "Delivery Management Software"],
+  keywords: ["Loan Software", "Loan Management", "Loan Management Software", "Loan Management Software"],
 };
 
 export default function RootLayout({

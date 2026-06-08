@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${scrolled ? styles.navbarScrolled : styles.navbarTransparent}`}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          Courierly
+          Easy Somity
         </Link>
 
         {/* Desktop Menu */}
