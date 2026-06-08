@@ -17,7 +17,7 @@ export default function Home() {
       <DemoSection />
       <ModulesSection />
       <PricingSection />
-      <RelatedProjects />
+    /*  <RelatedProjects />*/
       <ClientsSection />
       <ContactSection />
       <TermsSection />

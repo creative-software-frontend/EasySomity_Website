@@ -15,19 +15,19 @@ const RelatedProjects = () => {
       thumbnail: 'https://img.youtube.com/vi/bAa7_TkcmQs/maxresdefault.jpg',
       tags: ['Somity Software'],
       // Fixed: Standard watch link for opening in a new tab
-      link: 'https://www.youtube.com/watch?v=bAa7_TkcmQs',
+      link: 'https://www.youtube.com/watch?v=McGc6Em7cgM',
     },
     {
       title: 'Real-Time Tracking Software',
       thumbnail: 'https://img.youtube.com/vi/e2qSo0NGR-E/maxresdefault.jpg',
       tags: ['Somity Software'],
-      link: 'https://www.youtube.com/watch?v=e2qSo0NGR-E',
+      link: 'https://www.youtube.com/watch?v=McGc6Em7cgM',
     },
     {
       title: 'Somity Company Website',
       thumbnail: 'https://img.youtube.com/vi/1CGj0iO5aWc/maxresdefault.jpg',
       tags: ['Somity Software'],
-      link: 'https://www.youtube.com/watch?v=1CGj0iO5aWc',
+      link: 'https://www.youtube.com/watch?v=McGc6Em7cgM',
     },
   ];
 
