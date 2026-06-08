@@ -10,7 +10,8 @@ const PricingSection = () => {
     {
       name: 'Starter',
       desc: '1-100 Member',
-      price: '5,000',
+      Monthly Chatge: 'TK.30/Per Member',
+      Setup Chatge: 'TK.5,000',
       features: [
        'Single Branch System',
         'Basic Tracking System', 
@@ -25,7 +26,8 @@ const PricingSection = () => {
     {
       name: 'Business',
       desc: '101-1000 Member',
-      price: '50,000',
+      Monthly Chatge: 'TK.20/Per Member',
+      Setup Chatge: '50,000',
       features: [
         'Full Automation System',
         'Real-Time Tracking',
@@ -43,7 +45,8 @@ const PricingSection = () => {
     {
       name: 'Enterprise',
       desc: '1000+ Member',
-      price: '1,00,000',
+      Monthly Chatge: 'TK.10/Per Member',
+      Setup Chatge: '1,00,000',
       features: [
         'Custom Development',
         'Dedicated Server',
