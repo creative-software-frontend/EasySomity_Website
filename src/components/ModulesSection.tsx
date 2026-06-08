@@ -13,25 +13,18 @@ import styles from './ModulesSection.module.css';
 
 const ModulesSection = () => {
   const modules = [
-    { title: 'Parcel Booking', icon: <HiOutlineCube />, desc: 'Single & bulk parcel booking system' },
-    { title: 'Pickup Management', icon: <HiOutlineTruck />, desc: 'Auto & manual pickup assignment' },
-    { title: 'Real-Time Tracking', icon: <HiOutlineLocationMarker />, desc: 'Live parcel location tracking' },
-    { title: 'Delivery Management', icon: <HiOutlineBadgeCheck />, desc: 'Successful & failed delivery control' },
-    { title: 'Return Management', icon: <HiOutlineReceiptRefund />, desc: 'Return & reverse logistics system' },
-    { title: 'Pending Orders', icon: <HiOutlineClock />, desc: 'Hold, delay & reschedule orders' },
-    { title: 'Admin Dashboard', icon: <HiOutlineAdjustments />, desc: 'Full system control panel' },
-    { title: 'User Management', icon: <HiOutlineUsers />, desc: 'Rider, Merchant, Agent control' },
-    { title: 'Branch System', icon: <HiOutlineOfficeBuilding />, desc: 'Multi-branch management system' },
-    { title: 'COD Management', icon: <HiOutlineCurrencyDollar />, desc: 'Cash on delivery tracking system' },
-    { title: 'Accounts System', icon: <HiOutlineCalculator />, desc: 'Payments, invoices & settlements' },
-    { title: 'Financial Reports', icon: <HiOutlineChartPie />, desc: 'Profit, loss & daily reports' },
-    { title: 'Analytics Dashboard', icon: <HiOutlineChartBar />, desc: 'Business performance insights' },
-    { title: 'SMS Notification', icon: <HiOutlineChatAlt2 />, desc: 'Auto SMS updates for customers' },
-    { title: 'Complaint System', icon: <HiOutlineExclamationCircle />, desc: 'Customer complaint handling' },
-    { title: 'Hub Transfer', icon: <HiOutlineSwitchHorizontal />, desc: 'Branch to branch parcel movement' },
-    { title: 'Merchant App', icon: <HiOutlineUserGroup />, desc: 'Order create & manage system' },
-    { title: 'Rider App', icon: <HiOutlineUserCircle />, desc: 'Delivery tracking & task management' },
-    { title: 'Settings', icon: <HiOutlineCog />, desc: 'Zone, area, pricing & configuration' },
+    { title: 'সদস্য ব্যবস্থাপনা', icon: <HiOutlineCube />, desc: 'সদস্য নিবন্ধন ও তথ্য সংরক্ষণ, সদস্য তালিকা ও অনুসন্ধান সুবিধা' },
+    { title: 'সঞ্চয় ব্যবস্থাপনা', icon: <HiOutlineTruck />, desc: 'দৈনিক/সাপ্তাহিক/মাসিক সঞ্চয় সংগ্রহ' },
+    { title: 'ঋণ ব্যবস্থাপনা', icon: <HiOutlineLocationMarker />, desc: 'ঋণ আবেদন ও অনুমোদন' },
+    { title: 'হিসাবরক্ষণ', icon: <HiOutlineBadgeCheck />, desc: 'ক্যাশ বুক, লেজার হিসাব, আয়-ব্যয় হিসাব, ব্যাংক লেনদেন ব্যবস্থাপনা' },
+    { title: 'রসিদ ও ভাউচার', icon: <HiOutlineReceiptRefund />, desc: 'স্বয়ংক্রিয় রসিদ তৈরি. টাকা জমা ও উত্তোলনের রসিদ, ভাউচার প্রিন্ট' },
+    { title: 'শেয়ার ব্যবস্থাপনা', icon: <HiOutlineClock />, desc: 'শেয়ার ক্রয় ও বিক্রয় হিসাব, শেয়ার সার্টিফিকেট, লভ্যাংশ (Dividend) হিসাব' },
+    { title: 'ডকুমেন্ট আর্কাইভ', icon: <HiOutlineAdjustments />, desc: 'সমবায় সমিতির সকল গুরুত্বপূর্ণ কাগজপত্র ডিজিটালভাবে সংরক্ষণ ও পরিচালনা করা' },
+    { title: 'কর্মচারী ব্যবস্থাপনা', icon: <HiOutlineUsers />, desc: 'সমবায় সমিতির কর্মকর্তা ও কর্মচারীদের সকল তথ্য, উপস্থিতি, বেতন এবং কর্মক্ষমতা সহজে পরিচালনা করা' },
+    { title: 'প্রশাসনিক সুবিধা', icon: <HiOutlineOfficeBuilding />, desc: 'মিটিং ম্যানেজমেন্ট, নোটিশ ম্যানেজমেন্ট' },
+    { title: 'রিপোর্ট ও বিশ্লেষণ', icon: <HiOutlineCurrencyDollar />, desc: 'দৈনিক, মাসিক ও বার্ষিক রিপোর্ট' },
+    { title: 'SMS ও নোটিফিকেশন', icon: <HiOutlineCalculator />, desc: 'কিস্তি পরিশোধের রিমাইন্ডার, সদস্যকে SMS পাঠানো, গুরুত্বপূর্ণ নোটিশ প্রেরণ' },
+    { title: 'মোবাইল অ্যাপ', icon: <HiOutlineUserGroup />, desc: 'সমবায় সমিতি সফটওয়্যারের মোবাইল অ্যাপ সদস্য, কর্মকর্তা এবং কালেকশন কর্মীদের জন্য যেকোনো সময় ও যেকোনো স্থান থেকে সেবা গ্রহণ ও তথ্য ব্যবস্থাপনার সুবিধা প্রদান করে' },
   ];
 
   const containerVariants = {
