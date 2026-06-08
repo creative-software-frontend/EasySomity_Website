@@ -9,8 +9,8 @@ const PricingSection = () => {
   const plans = [
     {
       name: 'Starter',
-      desc: 'Small Courier Business',
-      price: '50,000',
+      desc: '1-100 Member',
+      price: '5,000',
       features: [
        'Single Branch System',
         'Basic Tracking System', 
@@ -24,8 +24,8 @@ const PricingSection = () => {
     },
     {
       name: 'Business',
-      desc: 'Growing Courier Company',
-      price: '5,00,000',
+      desc: '101-1000 Member',
+      price: '50,000',
       features: [
         'Full Automation System',
         'Real-Time Tracking',
@@ -42,8 +42,8 @@ const PricingSection = () => {
     },
     {
       name: 'Enterprise',
-      desc: 'Large Courier Network',
-      price: '10,00,000',
+      desc: '1000+ Member',
+      price: '1,00,000',
       features: [
         'Custom Development',
         'Dedicated Server',
