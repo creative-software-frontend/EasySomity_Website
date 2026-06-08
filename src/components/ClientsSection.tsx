@@ -38,7 +38,7 @@ const ClientsSection = () => {
         >
           <h2 className="section-title">Our Trusted Clients</h2>
           <p className="section-subtitle">
-            আমরা বিভিন্ন কুরিয়ার ও ই-কমার্স কোম্পানির সাথে সফলভাবে কাজ করছি
+            আমরা বিভিন্ন সমিতির হিসাব ব্যবস্থাপনা সাথে সফলভাবে কাজ করছি
           </p>
         </motion.div>
 
