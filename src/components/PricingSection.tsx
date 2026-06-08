@@ -9,7 +9,7 @@ const PricingSection = () => {
   const plans = [
     {
       name: 'Starter',
-      desc: '1-100 Member',
+      desc: 'Per Member TK.30/Monthly',
       Setup Chatge: '5,000',
       features: [
        'Single Branch System',
@@ -24,7 +24,7 @@ const PricingSection = () => {
     },
     {
       name: 'Business',
-      desc: '101-1000 Member',
+      desc: 'Per Member TK.20/Monthly',
       Setup Chatge: '30,000',
       features: [
         'Full Automation System',
@@ -42,7 +42,7 @@ const PricingSection = () => {
     },
     {
       name: 'Enterprise',
-      desc: '1000+ Member',
+      desc: 'Per Member TK.30/Monthly',
       Setup Chatge: '50,000',
       features: [
         'Custom Development',
