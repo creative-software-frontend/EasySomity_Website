@@ -10,7 +10,7 @@ const PricingSection = () => {
     {
       name: '1-100 Member',
       desc: 'Per Member TK.30/Monthly',
-      price: '5,000',
+      price: '10,000',
       features: [
        'সদস্য ব্যবস্থাপনা',
         'সঞ্চয় ব্যবস্থাপনা', 
